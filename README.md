@@ -13,6 +13,7 @@ Materiais e anotações para concursos públicos na área de TI
 ### Engenharia de software
 
 * [Modelos de processos de software](Modelos%20de%20processos%20de%20software.md)
+* [Conceitos de Engenharia de software](Conceitos%20de%20Engenharia%20de%20software.md)
 
 ## Administração Financeira e Orçamentária / Orçamento Público
 
