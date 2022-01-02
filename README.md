@@ -19,6 +19,10 @@ Materiais e anotações para concursos públicos na área de TI
 
 * [Conceitos e princípios orçamentários](Conceitos%20e%20princípios%20orçamentários.md)
 
+## Direito Constitucional
+
+* [Repartição de competências](Repartição%20de%20competências.md)
+
 
 
 
