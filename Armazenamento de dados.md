@@ -22,3 +22,42 @@ A replicação (cópias locais de dados) permite acessar os dados de mais de um 
 
 **Gabarito: Certo.**
 
+## Questão 2
+
+*FGV - 2021 - Redes de Computadores NAS (Network Attached Storage) TCE-AM Auditor*
+
+Sobre as tecnologias de armazenamento SAN e NAS, analise as afirmativas a seguir.
+
+I. A tecnologia NAS opera não em nível de arquivo, mas em nível de bloco.
+
+II. A tecnologia SAN fornece funcionalidade de armazenamento e sistemas de arquivos, como NFS e CIFS.
+
+III. O iSCSI é exemplo de protocolo utilizado em redes SAN.
+
+Está correto somente o que se afirma em:
+
+A. I;
+
+B. II;
+
+C. III;
+
+D. I e II;
+
+E. II e III.
+
+### Comentário
+
+I. A tecnologia NAS opera não em nível de arquivo, mas em nível de bloco.
+
+ERRADO. A tecnologia NAS, que consiste em manter um servidor de arquivos dedicado na rede, disponibiliza arquivos para as máquinas clientes.
+
+II. A tecnologia SAN fornece funcionalidade de armazenamento e sistemas de arquivos, como NFS e CIFS.
+
+ERRADO. A tecnologia SAN, que se define por uma rede segregada para armazenamento, apenas fornece dados no nível de bloco, de modo que o acesso em alto nível depende da existência do sistema operacional do cliente (geralmente, um servidor de arquivos que atua como intermediário).
+
+III. O iSCSI é exemplo de protocolo utilizado em redes SAN.
+
+CERTO. iSCSI é um protocolo de redes SAN que permite trabalhar com comandos SCSI em redes TCP/IP.
+
+**Gabarito: C**

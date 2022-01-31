@@ -9,6 +9,7 @@ Materiais e anotações para concursos públicos na área de TI
 
 * [Armazenamento de dados](Armazenamento%20de%20dados.md)
 * [RAID - Redundant Array of Inexpensive Drives](RAID.md)
+* [Discos rígidos](Discos%20rígidos.md)
 
 ### Desenvolvimento .NET
 

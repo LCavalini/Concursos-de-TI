@@ -2,9 +2,28 @@
 
 O arquivo de extensão .csproj, de formato XML, define diversos aspectos de um projeto da linguagem C#, como parâmetros de depuração e compilação.
 
-# XAML
+# XAML (eXtensible Application Markup Language)
 
 É um arquivo XML usado para criar e inicializar objetos do .NET, como janelas e controles de uma aplicação WPF. Os elementos do XAML correspondem às classes de objetos do .NET e os atributos, às propriedades e eventos.
+
+As *tags* e os atributos do XAML são sensíveis a maiúsuclas e minúsculas (*case sensitive*).
+
+## Duas maneiras de escrever os atributos
+
+Os atributos podem ser definidos dentro das *tags* dos controles ou em *tags* próprias com a notação Controle-Ponto-Atributo. Por exemplo:
+
+```
+<Button FontWeight="Bold">Botão</Button>
+```
+
+é equivalente a:
+
+```
+<Button>
+    <Button.FontWeight>Bold</Button.FontWeight>
+    Botão
+</Button>
+```
 
 ## Estrutura
 
@@ -50,6 +69,40 @@ namespace OlaMundoWPF
 ```
 
 O arquivo MainWindow.xaml.cs estabelece o comportamento lógico da aplicação. A classe é do tipo **partial** porque a sua definição se divide entre os arquivos MainWindow.xaml e MainWindow.xaml.cs. O método Btn_Clique_Aqui_Click é chamado quando o evento de clique do botão Btn_Clique_Aqui é disparado.
+
+## Eventos
+
+Em XAML, definimos os eventos como uma propriedade do controle. Por exemplo:
+
+```
+<Button x:Name="Botao" MouseUp="Botao_MouseUp">Clique aqui</Button>
+```
+
+O trecho de código acima relaciona o evento MouseUp com o método Botao_MouseUp, que poderia ter a seguinte assinatura:
+
+```
+private void Botao_MouseUp(object sender, MouseButtonEventArgs e)
+```
+
+Também é possível associar o evento de um controle a um método por meio de um [delegado (*delegate*)](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/using-delegates) deste:
+
+```
+public partial class MainWindow : Window {
+
+    public MainWindow() {
+        InitializeComponent();
+        Botao.MouseUp += new MouseButtonEventHandler(Botao_MouseUp);
+    }
+
+    private void Botao_MouseUp(object sender, MouseButtonEventArgs e) {
+    }
+}
+```
+# Referências
+
+WPF Tutorial: https://wpf-tutorial.com/
+
+SELLS, C e GRIFFITHS, I. [Programming WPF](https://www.oreilly.com/library/view/programming-wpf-2nd/9780596510374/), 2a ed., O'Relly, 2007.
 
 # Questões de prova
 

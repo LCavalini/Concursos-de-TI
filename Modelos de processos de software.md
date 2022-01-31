@@ -1,3 +1,11 @@
+# RUP (Rational Unified Process)
+
+## Distribuição das atividades pelas fases
+
+![Gráfico das baleias do RUP](/imagens/atividades_fases_grafico_baleia_rup.png)
+
+Referência: https://www.cin.ufpe.br/~gta/rup-vc/value_creation/guidances/supportingmaterials/welcome_vc_62272A35.html?nodeId=3fa1aeb6#
+
 # Questões
 
 ## Questão 1
@@ -53,3 +61,37 @@ O modelo espiral combina aspectos dos processos iterativos e em cascata. O desen
 ![Processo do Modelo Espiral](imagens/processo_espiral.png)
 
 Referência: Presman, R. S. Engenharia de software: uma abordagem profissional, 7ª ed., p. 65-66.
+
+## Questão 3
+
+*Ano: 2019 Banca: VUNESP Órgão: Prefeitura de Campinas - SP*
+
+O RUP (Rational Unified Process) apresenta disciplinas cujas atividades são distribuídas por quatro fases. Em relação a tais disciplinas e atividades, é correto afirmar que a disciplina
+
+Alternativas
+
+A. Análise e Projeto tem suas atividades distribuídas igualmente pelas quatro fases.
+
+B. Modelagem de Negócio tem menor atividade na fase de Elaboração.
+
+C. Configuração e Gerenciamento de Mudança tem menor atividade na fase de Iniciação
+
+D. de Requisitos tem suas atividades distribuídas igualmente pelas quatro fases.
+
+E. Modelagem de Negócio tem perfil de distribuição de atividades idêntico ao da disciplina Implantação, ao longo das quatro fases.
+
+### Comentário
+
+O modelo de processo RUP (Rational Unified Process) compreende, na perspectiva dinâmica, quatro fases: Concepção (definição do caso de negócio, identificação das entidades externas e sua interação), Elaboração (produção de um modelo de requisitos), Construção (desenvolvimento de um sistema funcional, documentado e testado) e Transição (entrega aos usuários, no ambiente real). Do ponto de vista estático, há seis atividades principais (ou workflows): Modelagem de negócio, Requisitos, Análise e projeto, Implementação, Teste e Implantação. Embora as atividades possam ser encontradas em todas as fases, há predomínio de certas atividades em algumas fases: Modelagem de Negócio, Requisitos e Análise e projeto concentram-se mais na Concepção e na Elaboração, enquanto a Implementação, Teste e Implantação sobressaem na Construção e na Transição. Fonte: SOMMERVILLE, I. Engenharia de Software, 9a ed., p. 34-37.
+
+A - Análise e Projeto tem suas atividades distribuídas igualmente pelas quatro fases. INCORRETA. A atividade Análise e Projeto pode ser vista em qualquer uma das fases, mas é mais relevante nas iniciais.
+
+B - Modelagem de Negócio tem menor atividade na fase de Elaboração. INCORRETA. A fase de Elaboração é responsável pela modelagem dos requisitos, de forma que a Modelagem de Negócio tem considerável importância nesta etapa.
+
+C - Configuração e Gerenciamento de Mudança tem menor atividade na fase de Iniciação. CORRETA. A atividade de Configuração e Gerenciamento relacionam-se com a Implantação e a manutenção do sistema, o que se dá na fase de Transição.
+
+D - de Requisitos tem suas atividades distribuídas igualmente pelas quatro fases. INCORRETA. A atividade de requisitos concentra-se nas fases iniciais.
+
+E - Modelagem de Negócio tem perfil de distribuição de atividades idêntico ao da disciplina Implantação, ao longo das quatro fases. INCORRETA. A Implantação é pouco relevante nas fases iniciais, porque não há o que efetivamente colocar em funcionamento, mas a Modelagem de Negócio pode ter um papel maior mesmo em fases mais avançadas.
+
+**GABARITO: C**

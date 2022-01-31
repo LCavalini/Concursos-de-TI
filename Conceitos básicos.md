@@ -2,7 +2,7 @@
 
 ## Características qualitativas fundamentais
 
-* Representação fidedigna
+* Representação fidedigna: a representação dos fenômenos deve ser **completa, neutra e livre de erros**. 
 * Relevância
 
 ## Características qualitativas de melhoria
