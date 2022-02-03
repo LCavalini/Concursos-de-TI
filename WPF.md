@@ -25,7 +25,10 @@ Os atributos podem ser definidos dentro das *tags* dos controles ou em *tags* pr
 </Button>
 ```
 
-## Estrutura
+## App.xaml e App.xaml.cs
+
+Os arquivos complementares App.xaml e App.xaml.cs são o ponto de partida de uma aplicação WPF, ou seja, onde se procuram as instruções iniciais.
+## Estrutura da Janela (MainWindow)
 
 ```
 \\ MainWindow.xaml
@@ -137,3 +140,28 @@ D. CORRETO. TabControl é um controle que apresenta guias (ou abas) para altern�
 E. INCORRETO. TreeView é um controle do Windows Forms para mostrar itens em uma visão hierárquica, como a de pastas e arquivos no Explorador de Arquivos do Windows. Ver https://docs.microsoft.com/pt-br/dotnet/desktop/winforms/controls/tabcontrol-control-windows-forms?view=netframeworkdesktop-4.8
 
 **Gabarito: D**
+
+# Questão 2
+
+*FGV - 2016 - Arquitetura de Software - Padrões de projeto (Design Patterns) - IBGE* 
+
+O padrão de projeto MVVM foi proposto por John Grossman para simplificar o desenvolvimento de aplicações baseadas nas tecnologias WPF e Windows Phone. O MVVM foi desenvolvido como uma especialização do padrão:
+
+Alternativas:
+
+A - Model-View-Controller;
+
+B - Mobile-Interator Model;
+
+C - Presentation Model;
+
+D - Singleton Model;
+
+E - Decorator Model.
+
+### Comentário
+
+MVVM, Model-View-View-Model, é um padrão de projeto que separa o desenvolvimento da interface (visualização) de usuário da lógica de negócio (modelo). Baseia-se no padrão ["Presentation Model"](https://martinfowler.com/eaaDev/PresentationModel.html) de Martin Fowler. No WPF, a camada de visualização é escrita de forma declarativa em um arquivo XAML.
+
+Referências: https://docs.microsoft.com/pt-br/windows/uwp/data-binding/data-binding-and-mvvm e https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern 
+
