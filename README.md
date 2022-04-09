@@ -14,6 +14,12 @@ Materiais e anotações para concursos públicos na área de TI
 ### Desenvolvimento .NET
 
 * [WPF - Windows Presentation Foundation](WPF.md)
+
+### Desenvolvimento Web
+
+* [HTML 5](HTML5.md)
+* [Javascript](Javascript.md)
+
 ### Engenharia de software
 
 * [Modelos de processos de software](Modelos%20de%20processos%20de%20software.md)
